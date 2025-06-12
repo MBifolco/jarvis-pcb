@@ -1,4 +1,4 @@
-24667689367559365
+24672939880216491
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99169,12 +99169,26 @@ jarvis
 20
 20
 jarvis
+ANT_RFANT3216120A5T_WAL
+
+RFANT3216120A5T 
+0
+2
+2
+jarvis
 ESP32-S3FN8
 
 
 0
 57
 57
+jarvis
+EVQP9H02W
+EVQ-P9H02W-2
+Switch
+0
+5
+5
 jarvis
 LIB_MAX98357AETE+T
 Max 21-0136_T1633-4
@@ -99221,6 +99235,13 @@ jarvis
 W25Q64JVSSIQ
 
 W25Q64JVSSIQ 
+0
+8
+8
+jarvis
+W25Q128JWSIQ-1.8
+8-Pin SOIC
+Integrated Circuit
 0
 8
 8

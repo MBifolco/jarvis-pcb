@@ -6,7 +6,7 @@
 	(descr "QFN56 (7×7 mm)")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 -5.5 0)
 		(layer "F.SilkS")
 		(uuid "0837670f-7392-4e26-9a4e-adfd7cf0a709")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "esp32-s3r16v"
-		(at 0 0 0)
+		(at 0 5.5 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "1f1599e4-e9b6-4978-af4f-764ac6c3db0a")
