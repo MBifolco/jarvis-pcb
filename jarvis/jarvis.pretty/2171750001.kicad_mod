@@ -1,18 +1,18 @@
 (footprint "2171750001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "217175-0001")
 	(tags "Connector")
 	(property "Reference" "J**"
 		(at 0 -0.252 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "7684faf5-422d-42cb-a7c7-4ac531c46b46")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9034611f-909a-4036-9d1e-ebb5fe1cf1ef")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -261,42 +249,42 @@
 	(pad "A5" smd rect
 		(at -0.5 -3.03)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "bfe6e3ae-1fb3-4644-b7f2-69bb1f4e4a0f")
 	)
 	(pad "A9" smd rect
 		(at 1.52 -3.03)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "9e4efdbe-4897-4274-83ae-46c7621362e2")
 	)
 	(pad "A12" smd rect
 		(at 2.75 -3.03)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "27e2e5eb-d510-4daf-9f70-bc557388fb47")
 	)
 	(pad "B5" smd rect
 		(at 0.5 -3.03)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "8fdc0068-96df-403e-8ef5-203ae8036903")
 	)
 	(pad "B9" smd rect
 		(at -1.52 -3.03)
 		(size 0.76 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "3c68772b-c8fe-4184-b4c3-1bc191303429")
 	)
 	(pad "B12" smd rect
 		(at -2.75 -3.03)
 		(size 0.8 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "406a57a9-4437-4981-8831-f81e12d0d8d6")
 	)
@@ -304,12 +292,7 @@
 		(at -4.32 0.85 90)
 		(size 2.01 2.01)
 		(drill 1.34)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu" "F.SilkS"
-		)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
 		(uuid "015e344d-f397-4b43-80d1-5da99ecfe3c3")
 	)
@@ -317,12 +300,7 @@
 		(at 4.32 0.85 90)
 		(size 2.01 2.01)
 		(drill 1.34)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu" "F.SilkS"
-		)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
 		(uuid "44f27f8c-8d4e-4d53-a814-7ba56c025da0")
 	)
@@ -330,12 +308,7 @@
 		(at -4.32 -2.95 90)
 		(size 2.01 2.01)
 		(drill 1.34)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu" "F.SilkS"
-		)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
 		(uuid "2fcdc0c4-c531-4f31-9bf3-b45622dc6e65")
 	)
@@ -343,15 +316,11 @@
 		(at 4.32 -2.95 90)
 		(size 2.01 2.01)
 		(drill 1.34)
-		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
-			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
-			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
-			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
-			"In29.Cu" "In30.Cu" "F.SilkS"
-		)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
 		(remove_unused_layers no)
 		(uuid "a22b6676-b565-4f2c-a40c-4d56a627f34a")
 	)
+	(embedded_fonts no)
 	(model "/home/biff/Documents/jarvis/LIB_217175-0001/217175-0001/3D/217175-0001.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "ANT_RFANT3216120A5T_WAL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "RFANT3216120A5T ")
 	(property "Reference" "REF**"
@@ -11,8 +11,8 @@
 		(uuid "21fb1102-4e9c-4b4e-8401-1a68b6194799")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8db31507-fc39-4825-92a5-48b4c08b0935")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -252,7 +240,7 @@
 			(width 0.0254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c3393195-6067-414d-8381-ab882113db47")
 	)
@@ -271,13 +259,13 @@
 	(pad "1" smd rect
 		(at -1.6764 0)
 		(size 0.762 1.7018)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6a724ce7-be2b-4950-a338-2945304012df")
 	)
 	(pad "2" smd rect
 		(at 1.6764 0)
 		(size 0.762 1.7018)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b7006888-b590-4a17-b99e-cb849cc2ed74")
 	)
 	(zone
@@ -298,6 +286,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -308,4 +300,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
