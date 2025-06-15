@@ -1,4 +1,4 @@
-25637444036877562
+25640932713773955
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102732,12 +102732,26 @@ Integrated Circuit
 8
 8
 jarvis
+XTAL_ABM10W-40.0000MHZ-8-N1G-T3
+
+
+0
+4
+4
+jarvis
 XTAL_CM8V-T1A-32.768KHZ-7PF-20PPM-TA-QC
 
 
 0
 2
 2
+jarvis
+XTAL_ECS-.327-12.5-1210B-N-TR
+
+
+0
+4
+4
 jarvis
 esp32-s3r16v
 QFN56 (7×7 mm)

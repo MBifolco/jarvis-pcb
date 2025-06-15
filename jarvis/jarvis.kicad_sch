@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d21d45e5-a4fd-47b9-acaa-6ca2c284b61a")
 	(paper "A4")
 	(lib_symbols)
@@ -178,6 +178,10 @@
 	(sheet
 		(at 110.49 48.26)
 		(size 52.07 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -207,173 +211,173 @@
 		)
 		(pin "ESP-GPIO18" input
 			(at 162.56 59.69 0)
+			(uuid "6f3c6485-decb-44e5-89f5-0e7b40e47273")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6f3c6485-decb-44e5-89f5-0e7b40e47273")
 		)
 		(pin "ESP-GPIO17" input
 			(at 162.56 63.5 0)
+			(uuid "9d136312-1451-41d9-a0b3-8180453b0dc3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9d136312-1451-41d9-a0b3-8180453b0dc3")
 		)
 		(pin "ESP-GPIO19" input
 			(at 162.56 52.07 0)
+			(uuid "64178295-9c3d-4ab7-ba98-726a3e118a27")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "64178295-9c3d-4ab7-ba98-726a3e118a27")
 		)
 		(pin "ESP-GPIO21" input
 			(at 162.56 67.31 0)
+			(uuid "416eb5b4-022f-47dd-b5fc-42f29f190933")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "416eb5b4-022f-47dd-b5fc-42f29f190933")
 		)
 		(pin "ESP-GPIO20" input
 			(at 162.56 55.88 0)
+			(uuid "d695dd37-ee87-45e9-89bd-010a2859b14f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d695dd37-ee87-45e9-89bd-010a2859b14f")
 		)
 		(pin "ESP=SPICSO" input
 			(at 110.49 63.5 180)
+			(uuid "bf30c5c2-074b-4464-ba34-56494d5a0946")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf30c5c2-074b-4464-ba34-56494d5a0946")
 		)
 		(pin "ESP-SPID" input
 			(at 110.49 52.07 180)
+			(uuid "7bcdf042-1eb4-48a2-95e9-b0695b0ccfc0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7bcdf042-1eb4-48a2-95e9-b0695b0ccfc0")
 		)
 		(pin "ESP-SPIQ" input
 			(at 110.49 55.88 180)
+			(uuid "418aa876-6c1c-4d9e-9d8e-bd0b071d42a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "418aa876-6c1c-4d9e-9d8e-bd0b071d42a5")
 		)
 		(pin "ESP-SPICLK" input
 			(at 110.49 59.69 180)
+			(uuid "37f7fea1-dbdf-41f7-a396-59466a68f898")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37f7fea1-dbdf-41f7-a396-59466a68f898")
 		)
 		(pin "ESP-SPIHD" input
 			(at 110.49 71.12 180)
+			(uuid "0bab7d7a-a73d-4e92-a59e-889c9ea00d02")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0bab7d7a-a73d-4e92-a59e-889c9ea00d02")
 		)
 		(pin "ESP-SPIWP" input
 			(at 110.49 67.31 180)
+			(uuid "9c89b835-f138-4ddf-8861-5b8cb8e0786c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9c89b835-f138-4ddf-8861-5b8cb8e0786c")
 		)
 		(pin "ESP-GPIO5" input
 			(at 110.49 85.09 180)
+			(uuid "d1a5d8e6-d284-42ca-a336-8c8691c0fe13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d1a5d8e6-d284-42ca-a336-8c8691c0fe13")
 		)
 		(pin "ESP-GPIO4" input
 			(at 110.49 81.28 180)
+			(uuid "c8533181-1732-4024-a015-8b2569a1992f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c8533181-1732-4024-a015-8b2569a1992f")
 		)
 		(pin "ESP-GPIO3" input
 			(at 110.49 77.47 180)
+			(uuid "d7d5281b-e575-44e3-ada4-9c54a3db4948")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d7d5281b-e575-44e3-ada4-9c54a3db4948")
 		)
 		(pin "ESP-GPIO9" input
 			(at 110.49 100.33 180)
+			(uuid "49bd96fa-5385-4c3e-9ebc-253c63ed1208")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49bd96fa-5385-4c3e-9ebc-253c63ed1208")
 		)
 		(pin "ESP-GPIO8" input
 			(at 110.49 96.52 180)
+			(uuid "70d9b693-35c7-416b-b992-7b162e5507f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "70d9b693-35c7-416b-b992-7b162e5507f3")
 		)
 		(pin "ESP-GPIO7" input
 			(at 110.49 92.71 180)
+			(uuid "952856cd-692a-47b0-85e7-6b75e2c3d126")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "952856cd-692a-47b0-85e7-6b75e2c3d126")
 		)
 		(instances
 			(project "jarvis"
@@ -386,6 +390,10 @@
 	(sheet
 		(at 58.42 49.53)
 		(size 25.4 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -415,123 +423,123 @@
 		)
 		(pin "FLASH-CLK" input
 			(at 83.82 59.69 0)
+			(uuid "d39a8f79-a65e-477a-9346-9cd629a54006")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d39a8f79-a65e-477a-9346-9cd629a54006")
 		)
 		(pin "AMP-DIN" input
 			(at 83.82 77.47 0)
+			(uuid "282d2d48-e25f-4d1d-bb0f-f7cfc960f032")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "282d2d48-e25f-4d1d-bb0f-f7cfc960f032")
 		)
 		(pin "AMP-LRCLK" input
 			(at 83.82 81.28 0)
+			(uuid "7b1a56e1-5a1d-44cc-9c38-7da88ae17ce4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "7b1a56e1-5a1d-44cc-9c38-7da88ae17ce4")
 		)
 		(pin "AMP-BCLK" input
 			(at 83.82 85.09 0)
+			(uuid "b260be08-6f7b-45ee-8d66-adeccbd391d9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b260be08-6f7b-45ee-8d66-adeccbd391d9")
 		)
 		(pin "FLASH-DI_IO0" input
 			(at 83.82 52.07 0)
+			(uuid "cfb26c0a-e152-4309-aafe-ba07cf6e0d07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cfb26c0a-e152-4309-aafe-ba07cf6e0d07")
 		)
 		(pin "FLASH-HOLD" input
 			(at 83.82 71.12 0)
+			(uuid "52dd8cbe-99c9-48c5-a93d-b9bb1a65d6c7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "52dd8cbe-99c9-48c5-a93d-b9bb1a65d6c7")
 		)
 		(pin "FLASH-CS" input
 			(at 83.82 63.5 0)
+			(uuid "2f2fdd52-8978-4c09-b654-3a8e545ed33a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2f2fdd52-8978-4c09-b654-3a8e545ed33a")
 		)
 		(pin "FLASH-DO_IO1" input
 			(at 83.82 55.88 0)
+			(uuid "3364bc96-6d15-4d43-bf41-cc3097b8623a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "3364bc96-6d15-4d43-bf41-cc3097b8623a")
 		)
 		(pin "FLASH-WP_IO2" input
 			(at 83.82 67.31 0)
+			(uuid "e1ff343c-2e27-4b50-88db-6c7a9b661ff7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e1ff343c-2e27-4b50-88db-6c7a9b661ff7")
 		)
 		(pin "MIC-WS" input
 			(at 83.82 92.71 0)
+			(uuid "8b047981-b938-4074-a00b-0e5ffc134ae2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "8b047981-b938-4074-a00b-0e5ffc134ae2")
 		)
 		(pin "MIC-BCK" input
 			(at 83.82 96.52 0)
+			(uuid "c305fce0-c33f-41eb-9ac8-46a2356c7a9c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c305fce0-c33f-41eb-9ac8-46a2356c7a9c")
 		)
 		(pin "MIC-DATA" input
 			(at 83.82 100.33 0)
+			(uuid "bae1e45d-66f6-4444-9cc0-90c52c6d425c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bae1e45d-66f6-4444-9cc0-90c52c6d425c")
 		)
 		(instances
 			(project "jarvis"
@@ -544,6 +552,10 @@
 	(sheet
 		(at 213.36 46.99)
 		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -573,53 +585,53 @@
 		)
 		(pin "USB-DP" input
 			(at 213.36 52.07 180)
+			(uuid "e65b7b26-f7ba-4d69-8618-d385492b6544")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e65b7b26-f7ba-4d69-8618-d385492b6544")
 		)
 		(pin "USB-DN" input
 			(at 213.36 55.88 180)
+			(uuid "421720c3-fcfa-492c-956f-8a2701eecfcf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "421720c3-fcfa-492c-956f-8a2701eecfcf")
 		)
 		(pin "BATTERY-STAT1{slash}LBO" input
 			(at 213.36 59.69 180)
+			(uuid "9af527da-0e13-46c2-a072-f82cbba99530")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9af527da-0e13-46c2-a072-f82cbba99530")
 		)
 		(pin "BATTERY-PG" input
 			(at 213.36 63.5 180)
+			(uuid "35171135-5607-401f-8cb9-09ed5b7f6f8f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "35171135-5607-401f-8cb9-09ed5b7f6f8f")
 		)
 		(pin "BATTERY-STAT2" input
 			(at 213.36 67.31 180)
+			(uuid "7c915cda-3dd5-4f95-a5f6-b80c20284a05")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c915cda-3dd5-4f95-a5f6-b80c20284a05")
 		)
 		(instances
 			(project "jarvis"
@@ -634,4 +646,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

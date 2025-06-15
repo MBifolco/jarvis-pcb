@@ -621,8 +621,16 @@
       "Root"
     ],
     [
-      "e77616bf-0648-4ebb-87b0-d89a2f201c73",
-      "power"
+      "9b4e9a22-eade-494c-9ba2-b1298a68c5fc",
+      "Power"
+    ],
+    [
+      "66ec1c32-4132-43c8-99e8-65f1381b5871",
+      "ESP"
+    ],
+    [
+      "67d093e5-852b-486a-8803-27c9e57204b4",
+      "Components"
     ]
   ],
   "text_variables": {}
