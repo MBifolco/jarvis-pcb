@@ -583,7 +583,7 @@
 				(justify left top)
 			)
 		)
-		(pin "USB-DP" input
+		(pin "USB-DP" output
 			(at 213.36 52.07 180)
 			(uuid "e65b7b26-f7ba-4d69-8618-d385492b6544")
 			(effects
