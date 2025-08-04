@@ -1,4 +1,4 @@
-25640944123004955
+25647937028751580
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102676,12 +102676,33 @@ Switch
 5
 5
 jarvis
+IC_TPD4E05U06QDQARQ1
+
+
+0
+10
+10
+jarvis
+IN-S63TBS5R5G5B_INO
+
+IN-S63TBS5R5G5B 
+0
+4
+4
+jarvis
 LIB_MAX98357AETE+T
 Max 21-0136_T1633-4
 Integrated Circuit
 0
 17
 17
+jarvis
+LRC0402CJ6N8GV001T
+
+L-07C6N8JV6T 
+0
+2
+2
 jarvis
 MCP73871T-4CAI ML
 (ML) 20-Lead QFNP-
@@ -102696,6 +102717,13 @@ MLG1005SR24JT000
 0
 2
 2
+jarvis
+MOLEX_2137160001-holes
+
+
+0
+20
+20
 jarvis
 PESD5V0X1UAB115
 PESD5V0X1UAB,115-4
