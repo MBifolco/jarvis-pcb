@@ -4012,6 +4012,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 142.24) (xy 234.95 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fd9bd0-b22c-4913-8f6c-1e557b240c48")
+	)
+	(wire
+		(pts
 			(xy 100.33 41.91) (xy 80.01 41.91)
 		)
 		(stroke
@@ -7596,73 +7606,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 229.87 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77b6949a-5e2f-45f7-b612-5df4ef1f23ff")
-		(property "Reference" "#PWR050"
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 142.2399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "11cdc5f8-35b9-4a04-a2b1-22ea4116ca4a")
-		)
-		(instances
-			(project "jarvis"
-				(path "/d21d45e5-a4fd-47b9-acaa-6ca2c284b61a/66ec1c32-4132-43c8-99e8-65f1381b5871"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 96.52 31.75 90)
 		(unit 1)
@@ -9155,6 +9098,72 @@
 			(project ""
 				(path "/d21d45e5-a4fd-47b9-acaa-6ca2c284b61a/66ec1c32-4132-43c8-99e8-65f1381b5871"
 					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.95 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb439d56-a38e-4ff9-a43b-c9d05126fc11")
+		(property "Reference" "#PWR051"
+			(at 234.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a8bcb70-868d-4d83-9f13-50adb4b949a6")
+		)
+		(instances
+			(project ""
+				(path "/d21d45e5-a4fd-47b9-acaa-6ca2c284b61a/66ec1c32-4132-43c8-99e8-65f1381b5871"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

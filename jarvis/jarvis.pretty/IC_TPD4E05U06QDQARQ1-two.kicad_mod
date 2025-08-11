@@ -1,4 +1,4 @@
-(footprint "IC_TPD4E05U06QDQARQ1"
+(footprint "IC_TPD4E05U06QDQARQ1-two"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "IC_TPD4E05U06QDQARQ1"
+	(property "Value" "IC_TPD4E05U06QDQARQ1-two"
 		(at 6.178 1.9536 0)
 		(layer "F.Fab")
 		(uuid "a0dfc0bf-3718-49b8-bfea-3722cb113cb0")

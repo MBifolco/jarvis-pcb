@@ -5503,7 +5503,7 @@
 		)
 		(uuid "2596ae34-3619-4ab3-a379-6ae1903bad17")
 	)
-	(label "USB_DP"
+	(label "USB_DN"
 		(at 266.7 64.77 0)
 		(effects
 			(font
@@ -5573,7 +5573,7 @@
 		)
 		(uuid "63528af7-a131-45c0-884b-2cd178c633f2")
 	)
-	(label "USB_DN"
+	(label "USB_DP"
 		(at 266.7 67.31 0)
 		(effects
 			(font
